@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>826</width>
+    <height>560</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Parametre</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="4" column="1">
+      <widget class="QLineEdit" name="lambda1_edit_val"/>
+     </item>
+     <item row="5" column="1">
+      <widget class="QLineEdit" name="lambda2_edit_val"/>
+     </item>
+     <item row="2" column="1">
+      <widget class="QLineEdit" name="min_diameter_edit_val"/>
+     </item>
+     <item row="6" column="1">
+      <widget class="QLineEdit" name="min_thresh_edit_val"/>
+     </item>
+     <item row="3" column="1">
+      <widget class="QLineEdit" name="smoothing_edit_val"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="lambda1_label">
+       <property name="text">
+        <string>lambda 1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="smoothing_label">
+       <property name="text">
+        <string>zakrivenie</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QLineEdit" name="w_edit_val"/>
+     </item>
+     <item row="5" column="0">
+      <widget class="QLabel" name="lambda2_label">
+       <property name="text">
+        <string>lambda 2</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="min_diam_label">
+       <property name="text">
+        <string>Minimalny polomer bunky</string>
+       </property>
+      </widget>
+     </item>
+     <item row="7" column="0">
+      <widget class="QLabel" name="max_threshold_label">
+       <property name="text">
+        <string>horný prah</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="0">
+      <widget class="QLabel" name="n_label">
+       <property name="text">
+        <string>N</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="w_label">
+       <property name="text">
+        <string>W</string>
+       </property>
+      </widget>
+     </item>
+     <item row="6" column="0">
+      <widget class="QLabel" name="min_threshold_label">
+       <property name="text">
+        <string>spodný prah</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QLineEdit" name="n_edit_val"/>
+     </item>
+     <item row="7" column="1">
+      <widget class="QLineEdit" name="max_thresh_edit_val"/>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QPushButton" name="save_btn">
+     <property name="text">
+      <string>Ulož</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
